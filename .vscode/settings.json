@@ -1,0 +1,34 @@
+{
+  "markdown.preview.breaks": true,
+  "markdown.update.onSave": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on"
+  },
+  "files.exclude": {
+    "raw/**": false
+  },
+  "foam.files.include": [
+    "wiki/**/*.md",
+    "README.md",
+    "AGENTS.md"
+  ],
+  "foam.files.exclude": [
+    "raw/**",
+    "output/**"
+  ],
+  "foam.files.defaultNoteExtension": "md",
+  "foam.completion.linkFormat": "wikilink",
+  "foam.edit.linkReferenceDefinitions": "off",
+  "foam.graph.onStartup": false,
+  "search.exclude": {
+    "raw/assets/**": true,
+    "**/.git": true,
+    "**/node_modules": true
+  },
+  "editor.fontSize": 13,
+  "editor.fontFamily": "'Consolas', 'Courier New', monospace",
+  "editor.rulers": [80, 120],
+  "workbench.colorTheme": "Default Dark Modern"
+}
